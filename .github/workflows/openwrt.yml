@@ -39,7 +39,7 @@ jobs:
         run: |
           git clone https://github.com/coolsnowwolf/lede
           git clone https://github.com/destan19/OpenAppFilter.git ./lede/package/OpenAppFilter
-          cp ./lede/.config .config 
+          #cp ./lede/.config .config 
           cp .config ./lede/.config
           mv ./lede/* ./
       - name: Update feeds
